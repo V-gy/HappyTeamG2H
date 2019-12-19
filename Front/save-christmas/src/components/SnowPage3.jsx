@@ -1,14 +1,14 @@
 import React from 'react';
-import './snow2.css';
+import './snow3.css';
 
-class SnowPage2 extends React.Component {
+class SnowPage3 extends React.Component {
     render() {
         return (
        
             
             <div className="snowBackground">
-                <div className="spacer"></div>                
-                <div className="village2"></div>               
+                <div className="spacer"></div>   
+                <div className="village3"></div>               
                 <div class="wrapper">                
                     <div class="snow layer1 a"></div>
                     <div class="snow layer1"></div>
@@ -25,4 +25,4 @@ class SnowPage2 extends React.Component {
     }
 }
 
-export default SnowPage2;
+export default SnowPage3;

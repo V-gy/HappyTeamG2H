@@ -1,6 +1,6 @@
 import React from "react";
 import "./scene.css";
-import "../../../mediaqueries.css"
+import "../../mediaqueries.css"
 
 class Scene extends React.Component {
     render() {
