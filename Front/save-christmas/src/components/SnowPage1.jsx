@@ -7,8 +7,8 @@ class SnowPage1 extends React.Component {
        
             
             <div className="snowBackground">
-                <div className="spacer"></div>                
-                <div className="village1"></div>               
+                              
+                <img className="village1" src="./backgroundImages/winter-village-4567947_1920.png" />               
                 <div class="wrapper">                
                     <div class="snow layer1 a"></div>
                     <div class="snow layer1"></div>
