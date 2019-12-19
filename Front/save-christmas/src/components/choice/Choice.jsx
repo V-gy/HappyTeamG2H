@@ -11,11 +11,11 @@ class Choice extends React.Component {
                 <div className="row scene-page-end dsk-8">
                     <p className="choice-phrase dsk-12"> Choose your character ?</p>
                     <div className="row dsk-12 choice-characters">
-                        <a href="/">
+                        <a href="/SnowPage1">
                             <div className="choice-character male dsk-5">    
                         </div>
                         </a>
-                        <a href="/SnowPage1">
+                        <a href="/SnowPage1Red">
                         <div className="choice-character female dsk-5"></div>
                         </a>
                     </div>
