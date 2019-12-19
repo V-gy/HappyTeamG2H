@@ -5,7 +5,6 @@
 .scene-page{
     background-image: url("../../images/santa-Klaus.svg");
     background-repeat: no-repeat;
-
     box-sizing: border-box;
     display: flex;
     justify-content: center;
