@@ -78,7 +78,7 @@
 @keyframes mortAvance{
     0% {top:500px; left: 800px}
     100% {top:500px;left: -1000px}
-  
+}
 .scene-page-off{
     background-color: black;
     display: flex; 
