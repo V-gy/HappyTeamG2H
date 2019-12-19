@@ -1,7 +1,6 @@
 .scene-page{
     background-image: url("../../images/santa-Klaus.svg");
     background-repeat: no-repeat;
-
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@
 .scene-page-end{
     background-image: url("../../images/Santa-Klaus-death.svg");
     background-repeat: no-repeat;
-
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -35,8 +33,8 @@
 }
 
 .scene-fleche{
-    height: 7vw;
-    width: 7vw;
+    height: 6vw;
+    width: 6vw;
     transform: rotate(-90deg);
     margin: 3vw;
     margin-right: 4vw;

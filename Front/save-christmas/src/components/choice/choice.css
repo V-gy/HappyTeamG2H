@@ -1,0 +1,33 @@
+.choice-phrase{
+    color: whitesmoke;
+    font-size: 4vw;
+    width: 70%;
+    margin: 5vw;
+}
+
+.choice-characters{
+    justify-content: space-around;
+
+}
+
+.choice-character{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.choice-character:hover{
+    transform: scale(1.5);
+}
+
+.choice-character.male{
+    background-image: url("../hero/herosprince.gif");
+    height: 275px;
+}
+
+.choice-character.female{
+    background-image: url("../heroine/heroinemage.gif");
+
+}
