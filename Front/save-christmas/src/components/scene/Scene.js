@@ -5,11 +5,11 @@ import "../../mediaqueries.css"
 class Scene extends React.Component {
     render() {
         return (
-            <div className="dsk-12">
-                <div className="scene-page-off rdsk-1"></div>
-                <div className="scene-page dsk-10">
-                <div className="scene-page-off dsk-1"></div>
-                </div>
+            <div className="row scene-page-off dsk-12">
+                <div className="scene-page-off dsk-2"></div>
+                <div className="scene-page dsk-8"></div>
+                <div className="scene-page-off dsk-2"></div>
+                
             </div>
         )
     }
