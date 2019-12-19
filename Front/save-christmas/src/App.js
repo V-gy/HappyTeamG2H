@@ -9,19 +9,14 @@ import SceneEnd from "./components/scene/SceneEnd";
 
 function App() {
   return (
-
-    <div className = "App">
-      <Switch>
-        <Route exact path="/" component={Main}/>
-        <Route path="/scene" component={Scene}/>
-        <Route path="/sceneEnd" component={SceneEnd}/>
-     
-
-    
-      <Route path="/SnowPage1" component={SnowPage1} />
-      <Route path="/SnowPage2" component={SnowPage2} />
+    <div className="App">
+     <Switch>
+       <Route exact path="/" component={Main}/>
+       <Route path="/scene" component={Scene}/>
+       <Route path="/sceneEnd" component={SceneEnd}/>
+       <Route path="/SnowPage1" component={SnowPage1} />
+       <Route path="/SnowPage2" component={SnowPage2} />
      </Switch>
-
     </div>
   );
 }

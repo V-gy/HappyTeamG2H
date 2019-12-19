@@ -1,3 +1,7 @@
+.scene {
+    position: relative;
+}
+
 .scene-page{
     background-image: url("../../images/santa-Klaus.svg");
     background-repeat: no-repeat;
@@ -9,6 +13,73 @@
     align-items: center;
 }
 
+
+
+.explo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion;
+}
+.explo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion2;
+}
+.explo3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion3;
+}
+.explo4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion4;
+}
+.ddlma {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    animation: 6s infinite alternate mortAvance;  
+}
+
+@keyframes mortAnimation{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: 800px}
+}
+@keyframes explosion{
+    0% {top:200px; left: 600px}
+    100% {top:200px;left: 600px}
+}
+@keyframes explosion2{
+    0% {top:150px; left: 500px}
+    100% {top:150px;left: 500px}
+}
+@keyframes explosion3{
+    0% {top:150px; left: 400px}
+    100% {top:150px;left: 400px}
+}
+@keyframes explosion4{
+    0% {top:150px; left: 280px}
+    100% {top:150px;left: 280px}
+}
+@keyframes mortAvance{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: -1000px}
+  
 .scene-page-off{
     background-color: black;
     display: flex; 
