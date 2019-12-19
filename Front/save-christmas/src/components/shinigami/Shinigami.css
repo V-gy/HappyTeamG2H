@@ -1,0 +1,69 @@
+.shinigami {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/arrivéedelamort.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start{
+    animation: 4s infinite alternate mortAnimation; 
+}
+
+.forward{
+    background-image: url("./assets/dieudelamortavance.gif");
+    animation: 4s infinite alternate mortAvance;
+}
+
+.ko{
+    background-image: url("./assets/kodieudelamort.gif");
+    animation: 4s infinite alternate mortShinigami; 
+}
+
+@keyframes mortAnimation{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: 800px}
+}
+
+/* @keyframes mortShinigami{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: 800px}
+} */
+
+@keyframes mortAvance{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: -1000px}
+}
+.boum{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/explosion.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explosion{
+    animation: 4s infinite alternate mortExplosion; 
+}
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-image: url("./assets/Santa-Klaus-death.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes mortExplosion{
+    0% {top:200px; left: 600px}
+    100% {top:200px;left: 600px}
+}

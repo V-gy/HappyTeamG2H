@@ -8,20 +8,11 @@
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    width: 100%;
     height: 100vh;;
     align-items: center;
-
 }
 
-.addlm {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 200px;
-    animation: 4s infinite alternate mortAnimation; 
-}
+
 
 .explo{
     position: absolute;
@@ -29,7 +20,7 @@
     left: 0;
     width: 400px;
     height: 150px;
-    animation: 1s infinite alternate explosion;
+    animation: 4s infinite alternate explosion;
 }
 .explo2{
     position: absolute;
@@ -37,7 +28,7 @@
     left: 0;
     width: 400px;
     height: 150px;
-    animation: 1s infinite alternate explosion2;
+    animation: 4s infinite alternate explosion2;
 }
 .explo3{
     position: absolute;
@@ -45,7 +36,7 @@
     left: 0;
     width: 400px;
     height: 150px;
-    animation: 1s infinite alternate explosion3;
+    animation: 4s infinite alternate explosion3;
 }
 .explo4{
     position: absolute;
@@ -53,7 +44,7 @@
     left: 0;
     width: 400px;
     height: 150px;
-    animation: 1s infinite alternate explosion4;
+    animation: 4s infinite alternate explosion4;
 }
 .ddlma {
     position: absolute;
@@ -87,4 +78,41 @@
 @keyframes mortAvance{
     0% {top:500px; left: 800px}
     100% {top:500px;left: -1000px}
+}
+.scene-page-off{
+    background-color: black;
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: flex-end;
+   
+}
+
+.scene-page-end{
+    background-image: url("../../images/Santa-Klaus-death.svg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;;
+    align-items: center;
+}
+
+.scene-phrase{
+    color: whitesmoke;
+    font-size: 6vw;
+    width: 70%;
+}
+
+.scene-fleche{
+    height: 6vw;
+    width: 6vw;
+    transform: rotate(-90deg);
+    margin: 3vw;
+    margin-right: 4vw;
+      }
+
+
+
+.scene-fleche:hover{
+    transform: rotate(-90deg) scale(1.5);
 }
