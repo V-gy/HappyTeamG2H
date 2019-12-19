@@ -9,10 +9,11 @@ class SceneEnd extends React.Component {
                 <div className="scene-page-off dsk-2"></div>
                 <div className="scene-page-end dsk-8">
                     <p className="scene-phrase"> Are you ready to Save Christmas ?</p>
-
                 </div>
                 <div className="scene-page-off dsk-2">
+                    <a href="/choice">
                     <img className="scene-fleche" src="../../image/fleche.png" />
+                    </a>
                 </div>
 
             </div>
