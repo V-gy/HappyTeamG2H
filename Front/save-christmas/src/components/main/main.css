@@ -1,0 +1,27 @@
+.main-page{
+    background-image: url("../../images/Santa-Klaus-death.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100vh;;
+    align-items: center;
+
+}
+
+.btn-start-go{
+    margin:  auto 1rem;
+    border: 1px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 5vw 15vw;
+    border-radius: 15px;
+}
+
+.btn-start-go:hover{
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
