@@ -41,7 +41,7 @@ class Shinigami extends React.Component {
         let timeEnd = current.timeEnd;
         this.setState({classes: current.classes});
         setTimeout( () => this.tick(), timeEnd );
-        window.setTimeout('window.location="/";',7000)
+        window.setTimeout('window.location="/sceneEnd";',7000)
     }
 
 
