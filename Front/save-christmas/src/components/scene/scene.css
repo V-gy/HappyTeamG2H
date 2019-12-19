@@ -1,12 +1,118 @@
-.scene-page{
-    background-image: url("../../../images/santa-Klaus.svg");
-    background-repeat: no-repeat;
+.scene {
+    position: relative;
+}
 
+.scene-page{
+    background-image: url("../../images/santa-Klaus1.svg");
+    background-repeat: no-repeat;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    width: 100%;
     height: 100vh;;
     align-items: center;
+}
 
+
+
+.explo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion;
+}
+.explo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion2;
+}
+.explo3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion3;
+}
+.explo4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    animation: 4s infinite alternate explosion4;
+}
+.ddlma {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    animation: 6s infinite alternate mortAvance;  
+}
+
+@keyframes mortAnimation{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: 800px}
+}
+@keyframes explosion{
+    0% {top:200px; left: 600px}
+    100% {top:200px;left: 600px}
+}
+@keyframes explosion2{
+    0% {top:150px; left: 500px}
+    100% {top:150px;left: 500px}
+}
+@keyframes explosion3{
+    0% {top:150px; left: 400px}
+    100% {top:150px;left: 400px}
+}
+@keyframes explosion4{
+    0% {top:150px; left: 280px}
+    100% {top:150px;left: 280px}
+}
+@keyframes mortAvance{
+    0% {top:500px; left: 800px}
+    100% {top:500px;left: -1000px}
+}
+.scene-page-off{
+    background-color: black;
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: flex-end;
+   
+}
+
+.scene-page-end{
+    background-image: url("../../images/Santa-Klaus-death.svg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;;
+    align-items: center;
+}
+
+.scene-phrase{
+    color: whitesmoke;
+    font-size: 6vw;
+    width: 70%;
+}
+
+.scene-fleche{
+    height: 6vw;
+    width: 6vw;
+    transform: rotate(-90deg);
+    margin: 3vw;
+    margin-right: 4vw;
+      }
+
+
+
+.scene-fleche:hover{
+    transform: rotate(-90deg) scale(1.5);
 }

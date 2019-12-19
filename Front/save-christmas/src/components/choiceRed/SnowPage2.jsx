@@ -1,14 +1,14 @@
 import React from 'react';
-import './snow.css';
+import '../snow2.css';
 
-class SnowPage1 extends React.Component {
+class SnowPage2Red extends React.Component {
     render() {
         return (
        
             
             <div className="snowBackground">
                               
-                <img className="village1" src="./backgroundImages/winter-village-4567947_1920.png" />               
+                <img src="./backgroundImages/christmas-3664322_1920.png" className="village2"/>               
                 <div class="wrapper">                
                     <div class="snow layer1 a"></div>
                     <div class="snow layer1"></div>
@@ -25,4 +25,4 @@ class SnowPage1 extends React.Component {
     }
 }
 
-export default SnowPage1;
+export default SnowPage2Red;
