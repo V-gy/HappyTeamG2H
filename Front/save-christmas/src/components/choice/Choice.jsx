@@ -15,7 +15,7 @@ class Choice extends React.Component {
                             <div className="choice-character male dsk-5">    
                         </div>
                         </a>
-                        <a href="/sceneEnd">
+                        <a href="/SnowPage1">
                         <div className="choice-character female dsk-5"></div>
                         </a>
                     </div>

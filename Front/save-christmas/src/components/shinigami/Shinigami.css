@@ -24,8 +24,8 @@
 }
 
 @keyframes mortAnimation{
-    0% {top:500px; left: 800px}
-    100% {top:500px;left: 800px}
+    0% {top:450px; left: 900px}
+    100% {top:450px;left: 900px}
 }
 
 /* @keyframes mortShinigami{
@@ -34,8 +34,8 @@
 } */
 
 @keyframes mortAvance{
-    0% {top:500px; left: 800px}
-    100% {top:500px;left: -1000px}
+    0% {top:450px; left: 900px}
+    100% {top:450px;left: -1000px}
 }
 .boum{
     position: absolute;
@@ -64,6 +64,6 @@
 }
 
 @keyframes mortExplosion{
-    0% {top:200px; left: 600px}
-    100% {top:200px;left: 600px}
+    0% {top:150px; left: 800px}
+    100% {top:150px;left: 800px}
 }

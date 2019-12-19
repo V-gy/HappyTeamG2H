@@ -1,0 +1,127 @@
+.heros {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("../assets/hero/herosprince.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start{
+    animation: 3s infinite alternate heroAnimation; 
+}
+
+.forward{
+    background-image: url("../assets/hero/hérosavance.gif");
+    animation: 10s infinite alternate heroAvance;
+}
+
+.stand {
+    background-image: url("../assets/hero/herosprince.gif");
+    animation: 20s infinite alternate heroStand;
+}
+
+.ok {
+    background-image: url("../assets/hero/okhéros.gif");
+    animation: 20s infinite alternate heroOk;
+}
+.ko {
+    background-image: url("../assets/hero/kohéros.gif");
+    animation: 20s infinite alternate heroKo;
+}
+.forward2{
+    background-image: url("../assets/hero/hérosavance.gif");
+    animation: 10s infinite alternate heroAvance2;
+}
+
+.stand2 {
+    background-image: url("../assets/hero/herosprince.gif");
+    animation: 20s infinite alternate heroStand2;
+}
+
+.ok2 {
+    background-image: url("../assets/hero/okhéros.gif");
+    animation: 20s infinite alternate heroOk2;
+}
+.ko2 {
+    background-image: url("../assets/hero/kohéros.gif");
+    animation: 20s infinite alternate heroKo2;
+}
+
+@keyframes heroAnimation{
+    0% {top:500px; left: 0px}
+    100% {top:500px;left: 0px}
+}
+
+@keyframes heroAvance{
+    0% {top:500px; left: 0px}
+    100% {top:500px;left: 300px}
+}
+
+@keyframes heroStand{
+    0% {top:500px; left: 300px}
+    100% {top:500px;left:300px}
+}
+
+@keyframes heroOk{
+    0% {top:500px; left: 300px}
+    100% {top:500px;left:300px}
+}
+
+@keyframes heroKo{
+    0% {top:500px; left: 300px}
+    100% {top:500px;left:300px}
+}
+
+@keyframes heroAvance2{
+    0% {top:500px; left: 300px}
+    100% {top:500px;left: 1000px}
+}
+
+@keyframes heroStand2{
+    0% {top:500px; left: 1000px}
+    100% {top:500px;left:1000px}
+}
+
+@keyframes heroOk2{
+    0% {top:500px; left: 1000px}
+    100% {top:500px;left:1000px}
+}
+
+@keyframes heroKo2{
+    0% {top:500px; left: 1000px}
+    100% {top:500px;left:1000px}
+}
+
+/* .boum{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/explosion.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explosion{
+    animation: 4s infinite alternate mortExplosion; 
+}
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-image: url("./assets/Santa-Klaus-death.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes mortExplosion{
+    0% {top:150px; left: 800px}
+    100% {top:150px;left: 800px}
+} */

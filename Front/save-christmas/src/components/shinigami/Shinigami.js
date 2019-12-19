@@ -9,11 +9,11 @@ class Shinigami extends React.Component {
         this.timeline = [
             {
                 classes: "shinigami start", 
-                timeEnd: 2000 
+                timeEnd: 3000 
             },
             {
                 classes: "boum explosion",
-                timeEnd: 1000
+                timeEnd: 3000
             }, 
             {
                 classes: "shinigami forward", 
