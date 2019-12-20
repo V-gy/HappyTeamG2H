@@ -1,23 +1,26 @@
 .snowBackground {
     margin: 0;  
     position:relative;
+    top: 0;
+    left: 0;
   }
  .spacer{
     height:20vh;
  } 
   .village3{
-    display:block;
     background-image:
      url(../images/winter-house-3686129_1280.png);
-    z-index: 50;
     width:100vw;
     height:80vh;    
+    top: 20vh;
+    left:0;
     background-size:contain;
     background-repeat: no-repeat;    
-    position: relative;
+    position: absolute;
     margin-left: 15vw;
     margin-right: 15vw;
-    margin-bottom: 0;
+  z-index: -1;
+  
   }  
   
   .wrapper {
@@ -82,4 +85,28 @@
     100% {
       transform: translateY(200vh);
     }
+  }
+
+
+  .pousse{
+    height: 40%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+  }
+  
+  .maissss{
+    height: 530px;
+  }
+
+  .beau{
+    flex-direction: row-reverse;
+  }
+  
+  .Frth-ask{
+    height: 300px;
+      width: 300px;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-image: url("../components/shinigami/assets/arrivéedelamort.gif");
   }

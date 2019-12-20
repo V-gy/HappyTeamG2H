@@ -12,7 +12,7 @@
     left:50%;
     top: 100vh;
     transform: translate(-50%, -100%);
-    z-index: 50;
+    z-index: -1;
     width:100vw;
     height:auto;
    
@@ -79,4 +79,27 @@
     100% {
       transform: translateY(200vh);
     }
+  }
+  
+  .pousse{
+    height: 40%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+  }
+  
+  .maissss{
+    height: 530px;
+  }
+
+  .beau{
+    flex-direction: row-reverse;
+  }
+  
+  .trd-ask{
+    height: 170px;
+      width: 170px;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-image: url("../components/lady/arrivéesensei.gif");
   }
